@@ -20,7 +20,9 @@
         <activity android:name=".VideoActivity" />
         <activity android:name=".CourseActivity" />
         <activity android:name=".HelpActivity" />
-        <activity android:name=".BlogsActivity"></activity>
+        <activity android:name=".BlogsActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity"></activity>
     </application>
 
 </manifest>
