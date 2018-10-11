@@ -32,11 +32,11 @@ public class LoginActivity extends AppCompatActivity {
             {
                 if (editTextusername.getText().toString().equals(""))
                 {
-                    editTextusername.setError("Required!");
+                    editTextusername.setError("Email Required!");
                 }
                 else if (editTextpassword.getText().toString().equals(""))
                 {
-                    editTextpassword.setError("Required!");
+                    editTextpassword.setError("Password Required");
                 }
                 else
                 {
