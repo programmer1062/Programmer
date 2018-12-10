@@ -43,7 +43,7 @@ public class RegisterActivity extends AppCompatActivity {
                 }
                 else if (editTextconfirmpassword.getText().toString().equals(""))
                 {
-                    editTextconfirmpassword.setError("Required!");
+                    editTextconfirmpassword.setError("Password Required!");
                 }
                 else if (!editTextpassword.getText().toString().equals(editTextconfirmpassword.getText().toString()))
                 {
@@ -61,7 +61,7 @@ public class RegisterActivity extends AppCompatActivity {
                     }
                     else
                     {
-                        Toast.makeText(RegisterActivity.this, "Already Registered!", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(RegisterActivity.this, "User Already Registered!", Toast.LENGTH_SHORT).show();
                     }
                 }
             }
