@@ -35,7 +35,7 @@ public class RegisterActivity extends AppCompatActivity {
             {
                 if (editTextusername.getText().toString().equals(""))
                 {
-                    editTextusername.setError("Required!");
+                    editTextusername.setError("UserName Required!");
                 }
                 else if (editTextpassword.getText().toString().equals(""))
                 {
