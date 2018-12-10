@@ -39,7 +39,7 @@ public class RegisterActivity extends AppCompatActivity {
                 }
                 else if (editTextpassword.getText().toString().equals(""))
                 {
-                    editTextpassword.setError("Required!");
+                    editTextpassword.setError("Password Required!");
                 }
                 else if (editTextconfirmpassword.getText().toString().equals(""))
                 {
@@ -47,7 +47,7 @@ public class RegisterActivity extends AppCompatActivity {
                 }
                 else if (!editTextpassword.getText().toString().equals(editTextconfirmpassword.getText().toString()))
                 {
-                    editTextpassword.setError("Password donot match!");
+                    editTextpassword.setError("Password don't match!");
                 }
                 else
                 {
